@@ -1,0 +1,773 @@
+2024-05-10 13:27:46,253 - Model - INFO - PARAMETER ...
+2024-05-10 13:27:46,253 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 13:27:46,294 - Model - INFO - The number of test data is: 2874
+2024-05-10 13:32:01,185 - Model - INFO - PARAMETER ...
+2024-05-10 13:32:01,185 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 13:32:01,280 - Model - INFO - The number of test data is: 2874
+2024-05-10 13:35:25,806 - Model - INFO - eval mIoU of Airplane       0.834470
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Bag            0.834232
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Cap            0.865556
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Car            0.780860
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Chair          0.907714
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Earphone       0.686142
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Guitar         0.910740
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Knife          0.869896
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Lamp           0.845187
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Laptop         0.955055
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Motorbike      0.727703
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Mug            0.953586
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Pistol         0.828785
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Rocket         0.604975
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Skateboard     0.764532
+2024-05-10 13:35:25,807 - Model - INFO - eval mIoU of Table          0.827083
+2024-05-10 13:35:25,808 - Model - INFO - Accuracy is: 0.94459
+2024-05-10 13:35:25,808 - Model - INFO - Class avg accuracy is: 0.87790
+2024-05-10 13:35:25,808 - Model - INFO - Class avg mIOU is: 0.82478
+2024-05-10 13:35:25,808 - Model - INFO - Inctance avg mIOU is: 0.85432
+2024-05-10 14:13:28,174 - Model - INFO - PARAMETER ...
+2024-05-10 14:13:28,174 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3, input_pc_file='./data/modelnet40_normal_resampled/airplane/airplane_0001.txt', output_pc_file='./test_result/')
+2024-05-10 14:17:13,828 - Model - INFO - PARAMETER ...
+2024-05-10 14:17:13,828 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3, input_pc_file='./data/modelnet40_normal_resampled/airplane/airplane_0001.txt', output_pc_file='./test_result/')
+2024-05-10 15:21:52,320 - Model - INFO - 参数设置 ...
+2024-05-10 15:21:52,320 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:21:52,335 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Chair          的mIoU为 0.970542
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:21:55,733 - Model - INFO - 准确率为：0.98096
+2024-05-10 15:21:55,733 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:21:55,733 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:21:55,733 - Model - INFO - 实例平均mIoU为：0.97054
+2024-05-10 15:23:26,938 - Model - INFO - 参数设置 ...
+2024-05-10 15:23:26,938 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:23:26,956 - Model - INFO - 测试数据的数量为：2
+2024-05-10 15:23:29,192 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:23:29,192 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Chair          的mIoU为 0.965094
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Lamp           的mIoU为 0.931184
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:23:29,193 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:23:29,194 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:23:29,194 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:23:29,194 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:23:29,194 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:23:29,194 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:23:29,194 - Model - INFO - 准确率为：0.98242
+2024-05-10 15:23:29,194 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:23:29,194 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:23:29,195 - Model - INFO - 实例平均mIoU为：0.94814
+2024-05-10 15:34:49,322 - Model - INFO - 参数设置 ...
+2024-05-10 15:34:49,322 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:34:49,346 - Model - INFO - 测试数据的数量为：2
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Chair          的mIoU为 0.971521
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Lamp           的mIoU为 0.925730
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:34:51,770 - Model - INFO - 准确率为：0.98438
+2024-05-10 15:34:51,770 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:34:51,770 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:34:51,770 - Model - INFO - 实例平均mIoU为：0.94863
+2024-05-10 15:40:47,820 - Model - INFO - 参数设置 ...
+2024-05-10 15:40:47,820 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:40:47,836 - Model - INFO - 测试数据的数量为：2
+2024-05-10 15:43:11,189 - Model - INFO - 参数设置 ...
+2024-05-10 15:43:11,189 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:43:11,198 - Model - INFO - 测试数据的数量为：2
+2024-05-10 15:43:44,302 - Model - INFO - 参数设置 ...
+2024-05-10 15:43:44,302 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:43:44,325 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Chair          的mIoU为 0.969239
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:43:46,647 - Model - INFO - 准确率为：0.98145
+2024-05-10 15:43:46,647 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:43:46,647 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:43:46,647 - Model - INFO - 实例平均mIoU为：0.96924
+2024-05-10 15:45:08,173 - Model - INFO - 参数设置 ...
+2024-05-10 15:45:08,189 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:45:08,208 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Chair          的mIoU为 0.963362
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:45:10,448 - Model - INFO - 准确率为：0.97559
+2024-05-10 15:45:10,448 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:45:10,448 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:45:10,448 - Model - INFO - 实例平均mIoU为：0.96336
+2024-05-10 15:46:17,630 - Model - INFO - 参数设置 ...
+2024-05-10 15:46:17,630 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:46:17,646 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Chair          的mIoU为 0.962404
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:46:19,902 - Model - INFO - 准确率为：0.97559
+2024-05-10 15:46:19,902 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:46:19,902 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:46:19,902 - Model - INFO - 实例平均mIoU为：0.96240
+2024-05-10 15:47:31,824 - Model - INFO - 参数设置 ...
+2024-05-10 15:47:31,824 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:47:31,843 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Chair          的mIoU为 0.974148
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:47:34,023 - Model - INFO - 准确率为：0.98340
+2024-05-10 15:47:34,023 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:47:34,023 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:47:34,023 - Model - INFO - 实例平均mIoU为：0.97415
+2024-05-10 15:49:02,311 - Model - INFO - 参数设置 ...
+2024-05-10 15:49:02,311 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:49:02,330 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:49:04,617 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:49:04,617 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:49:04,617 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:49:04,617 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Chair          的mIoU为 0.975656
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:49:04,633 - Model - INFO - 准确率为：0.98340
+2024-05-10 15:49:04,633 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:49:04,633 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:49:04,633 - Model - INFO - 实例平均mIoU为：0.97566
+2024-05-10 15:49:41,507 - Model - INFO - 参数设置 ...
+2024-05-10 15:49:41,507 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:49:41,524 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Chair          的mIoU为 0.972058
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:49:43,860 - Model - INFO - 准确率为：0.98096
+2024-05-10 15:49:43,860 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:49:43,860 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:49:43,860 - Model - INFO - 实例平均mIoU为：0.97206
+2024-05-10 15:50:18,896 - Model - INFO - 参数设置 ...
+2024-05-10 15:50:18,896 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:50:18,911 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Chair          的mIoU为 0.965478
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:50:21,197 - Model - INFO - 准确率为：0.97656
+2024-05-10 15:50:21,197 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:50:21,197 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:50:21,197 - Model - INFO - 实例平均mIoU为：0.96548
+2024-05-10 15:52:23,608 - Model - INFO - 参数设置 ...
+2024-05-10 15:52:23,608 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:52:23,624 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Airplane       的mIoU为 0.870215
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:52:25,941 - Model - INFO - 准确率为：0.94336
+2024-05-10 15:52:25,941 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:52:25,941 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:52:25,941 - Model - INFO - 实例平均mIoU为：0.87021
+2024-05-10 15:57:19,707 - Model - INFO - 参数设置 ...
+2024-05-10 15:57:19,707 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:57:19,722 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Airplane       的mIoU为 0.903864
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:57:21,894 - Model - INFO - 准确率为：0.95166
+2024-05-10 15:57:21,894 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:57:21,894 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:57:21,894 - Model - INFO - 实例平均mIoU为：0.90386
+2024-05-10 15:59:33,903 - Model - INFO - 参数设置 ...
+2024-05-10 15:59:33,903 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 15:59:33,918 - Model - INFO - 测试数据的数量为：1
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Airplane       的mIoU为 0.875667
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 15:59:36,137 - Model - INFO - 准确率为：0.93848
+2024-05-10 15:59:36,137 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 15:59:36,137 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 15:59:36,137 - Model - INFO - 实例平均mIoU为：0.87567
+2024-05-10 16:01:00,453 - Model - INFO - 参数设置 ...
+2024-05-10 16:01:00,453 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:01:00,469 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Airplane       的mIoU为 0.827463
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 16:01:02,696 - Model - INFO - 准确率为：0.91846
+2024-05-10 16:01:02,696 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 16:01:02,696 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 16:01:02,696 - Model - INFO - 实例平均mIoU为：0.82746
+2024-05-10 16:01:31,604 - Model - INFO - 参数设置 ...
+2024-05-10 16:01:31,604 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:01:31,621 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Airplane       的mIoU为 0.902219
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 16:01:33,827 - Model - INFO - 准确率为：0.94385
+2024-05-10 16:01:33,827 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 16:01:33,827 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 16:01:33,827 - Model - INFO - 实例平均mIoU为：0.90222
+2024-05-10 16:04:12,818 - Model - INFO - 参数设置 ...
+2024-05-10 16:04:12,818 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:04:12,833 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Airplane       的mIoU为 0.868577
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 16:04:15,060 - Model - INFO - 准确率为：0.93213
+2024-05-10 16:04:15,060 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 16:04:15,060 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 16:04:15,060 - Model - INFO - 实例平均mIoU为：0.86858
+2024-05-10 16:28:36,209 - Model - INFO - 参数设置 ...
+2024-05-10 16:28:36,209 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:28:36,241 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Airplane       的mIoU为 0.864778
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 16:28:38,499 - Model - INFO - 准确率为：0.93604
+2024-05-10 16:28:38,499 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 16:28:38,499 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 16:28:38,499 - Model - INFO - 实例平均mIoU为：0.86478
+2024-05-10 16:29:15,959 - Model - INFO - 参数设置 ...
+2024-05-10 16:29:15,959 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:29:15,975 - Model - INFO - 测试数据的数量为：2
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Airplane       的mIoU为 0.845998
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Bag            的mIoU为 0.720715
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 16:29:18,528 - Model - INFO - 准确率为：0.91797
+2024-05-10 16:29:18,528 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 16:29:18,528 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 16:29:18,528 - Model - INFO - 实例平均mIoU为：0.78336
+2024-05-10 16:29:57,275 - Model - INFO - 参数设置 ...
+2024-05-10 16:29:57,275 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:29:57,291 - Model - INFO - 测试数据的数量为：2
+2024-05-10 16:29:59,485 - Model - INFO - 评估 Airplane       的mIoU为 0.831535
+2024-05-10 16:29:59,485 - Model - INFO - 评估 Bag            的mIoU为 0.717007
+2024-05-10 16:29:59,485 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 16:29:59,485 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 16:29:59,485 - Model - INFO - 评估 Chair          的mIoU为 nan
+2024-05-10 16:29:59,485 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 16:29:59,485 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 16:29:59,500 - Model - INFO - 准确率为：0.90869
+2024-05-10 16:29:59,500 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 16:29:59,500 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 16:29:59,500 - Model - INFO - 实例平均mIoU为：0.77427
+2024-05-10 16:35:34,917 - Model - INFO - 参数设置 ...
+2024-05-10 16:35:34,917 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:37:21,260 - Model - INFO - 参数设置 ...
+2024-05-10 16:37:21,260 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:37:21,275 - Model - INFO - 测试数据的数量为：0
+2024-05-10 16:39:59,437 - Model - INFO - 参数设置 ...
+2024-05-10 16:39:59,437 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:39:59,468 - Model - INFO - 测试数据的数量为：0
+2024-05-10 16:40:58,585 - Model - INFO - 参数设置 ...
+2024-05-10 16:40:58,585 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:40:58,601 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:41:54,724 - Model - INFO - 参数设置 ...
+2024-05-10 16:41:54,724 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:41:54,740 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:42:12,696 - Model - INFO - 参数设置 ...
+2024-05-10 16:42:12,696 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:42:12,731 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:56:46,819 - Model - INFO - 参数设置 ...
+2024-05-10 16:56:46,819 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:56:46,842 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:57:42,363 - Model - INFO - 参数设置 ...
+2024-05-10 16:57:42,363 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:57:42,385 - Model - INFO - 测试数据的数量为：1
+2024-05-10 16:58:08,847 - Model - INFO - 参数设置 ...
+2024-05-10 16:58:08,847 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 16:58:08,868 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:01:37,981 - Model - INFO - 参数设置 ...
+2024-05-10 17:01:37,981 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:01:38,002 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:04:37,437 - Model - INFO - 参数设置 ...
+2024-05-10 17:04:37,437 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:04:37,457 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:05:09,435 - Model - INFO - 参数设置 ...
+2024-05-10 17:05:09,435 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:05:09,456 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:05:33,344 - Model - INFO - 参数设置 ...
+2024-05-10 17:05:33,345 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:05:33,368 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:05:57,886 - Model - INFO - 参数设置 ...
+2024-05-10 17:05:57,886 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:05:57,906 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:07:01,989 - Model - INFO - 参数设置 ...
+2024-05-10 17:07:01,990 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:07:02,009 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:08:12,225 - Model - INFO - 参数设置 ...
+2024-05-10 17:08:12,225 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:08:12,245 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:08:55,329 - Model - INFO - 参数设置 ...
+2024-05-10 17:08:55,329 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10000, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:08:55,349 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:12:52,883 - Model - INFO - 参数设置 ...
+2024-05-10 17:12:52,883 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10000, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:12:52,906 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:13:18,105 - Model - INFO - 参数设置 ...
+2024-05-10 17:13:18,105 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:13:18,128 - Model - INFO - 测试数据的数量为：1
+2024-05-10 17:31:22,565 - Model - INFO - 参数设置 ...
+2024-05-10 17:31:22,565 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 17:31:22,586 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:04:52,128 - Model - INFO - 参数设置 ...
+2024-05-10 18:04:52,128 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:04:52,143 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:05:58,704 - Model - INFO - 参数设置 ...
+2024-05-10 18:05:58,704 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:05:58,720 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:06:45,239 - Model - INFO - 参数设置 ...
+2024-05-10 18:06:45,239 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:06:45,254 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:07:10,832 - Model - INFO - 参数设置 ...
+2024-05-10 18:07:10,832 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:07:10,852 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:11:05,145 - Model - INFO - 参数设置 ...
+2024-05-10 18:11:05,145 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10000, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:11:05,160 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:11:42,802 - Model - INFO - 参数设置 ...
+2024-05-10 18:11:42,802 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10000, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:11:42,833 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:11:56,335 - Model - INFO - 参数设置 ...
+2024-05-10 18:11:56,335 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:11:56,350 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:12:57,352 - Model - INFO - 参数设置 ...
+2024-05-10 18:12:57,352 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:12:57,383 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:13:56,786 - Model - INFO - 参数设置 ...
+2024-05-10 18:13:56,786 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:13:56,820 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:15:39,643 - Model - INFO - 参数设置 ...
+2024-05-10 18:15:39,643 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:15:39,659 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:16:24,711 - Model - INFO - 参数设置 ...
+2024-05-10 18:16:24,711 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:16:24,742 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:16:35,127 - Model - INFO - 参数设置 ...
+2024-05-10 18:16:35,127 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:16:35,136 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:16:48,301 - Model - INFO - 参数设置 ...
+2024-05-10 18:16:48,301 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:16:48,317 - Model - INFO - 测试数据的数量为：1
+2024-05-10 18:18:06,157 - Model - INFO - 参数设置 ...
+2024-05-10 18:18:06,157 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 18:18:06,185 - Model - INFO - 测试数据的数量为：1
+2024-05-10 20:39:36,521 - Model - INFO - 参数设置 ...
+2024-05-10 20:39:36,521 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 20:39:36,543 - Model - INFO - 测试数据的数量为：1
+2024-05-10 20:49:19,235 - Model - INFO - 参数设置 ...
+2024-05-10 20:49:19,236 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 20:49:19,258 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:21:10,418 - Model - INFO - 参数设置 ...
+2024-05-10 21:21:10,418 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:21:10,450 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:21:34,380 - Model - INFO - 参数设置 ...
+2024-05-10 21:21:34,380 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:21:34,406 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:24:07,847 - Model - INFO - 参数设置 ...
+2024-05-10 21:24:07,847 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:24:07,862 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:26:09,879 - Model - INFO - 参数设置 ...
+2024-05-10 21:26:09,879 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:26:09,894 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:28:49,065 - Model - INFO - 参数设置 ...
+2024-05-10 21:28:49,065 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:28:49,082 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:29:09,149 - Model - INFO - 参数设置 ...
+2024-05-10 21:29:09,149 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:29:09,164 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:33:25,548 - Model - INFO - 参数设置 ...
+2024-05-10 21:33:25,548 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:33:25,564 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:33:54,781 - Model - INFO - 参数设置 ...
+2024-05-10 21:33:54,781 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:33:54,796 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:36:49,930 - Model - INFO - 参数设置 ...
+2024-05-10 21:36:49,930 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:36:49,954 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:36:58,374 - Model - INFO - 参数设置 ...
+2024-05-10 21:36:58,374 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=32, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:36:58,406 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:38:31,638 - Model - INFO - 参数设置 ...
+2024-05-10 21:38:31,638 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=32, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:38:31,654 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:38:49,254 - Model - INFO - 参数设置 ...
+2024-05-10 21:38:49,254 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:38:49,268 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:41:30,688 - Model - INFO - 参数设置 ...
+2024-05-10 21:41:30,688 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:41:30,704 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:48:37,779 - Model - INFO - 参数设置 ...
+2024-05-10 21:48:37,779 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:48:37,810 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:49:02,373 - Model - INFO - 参数设置 ...
+2024-05-10 21:49:02,373 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:49:02,388 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:50:57,126 - Model - INFO - 参数设置 ...
+2024-05-10 21:50:57,126 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:50:57,142 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:51:31,653 - Model - INFO - 参数设置 ...
+2024-05-10 21:51:31,653 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:51:31,670 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:54:02,577 - Model - INFO - 参数设置 ...
+2024-05-10 21:54:02,577 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:54:02,593 - Model - INFO - 测试数据的数量为：1
+2024-05-10 21:55:03,422 - Model - INFO - 参数设置 ...
+2024-05-10 21:55:03,422 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 21:55:03,438 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:00:11,719 - Model - INFO - 参数设置 ...
+2024-05-10 22:00:11,719 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:00:11,732 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:00:25,273 - Model - INFO - 参数设置 ...
+2024-05-10 22:00:25,273 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:00:25,305 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:00:58,518 - Model - INFO - 参数设置 ...
+2024-05-10 22:00:58,518 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:00:58,549 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:01:16,986 - Model - INFO - 参数设置 ...
+2024-05-10 22:01:16,986 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:01:16,998 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:03:10,916 - Model - INFO - 参数设置 ...
+2024-05-10 22:03:10,916 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:03:10,941 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:04:09,254 - Model - INFO - 参数设置 ...
+2024-05-10 22:04:09,254 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:04:09,286 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:04:45,470 - Model - INFO - 参数设置 ...
+2024-05-10 22:04:45,470 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=10, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:04:45,485 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:04:51,313 - Model - INFO - 参数设置 ...
+2024-05-10 22:04:51,313 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:04:51,328 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:05:03,062 - Model - INFO - 参数设置 ...
+2024-05-10 22:05:03,062 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:05:03,077 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:07:11,282 - Model - INFO - 参数设置 ...
+2024-05-10 22:07:11,282 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:07:11,299 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:08:02,186 - Model - INFO - 参数设置 ...
+2024-05-10 22:08:02,186 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:08:02,201 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:10:11,741 - Model - INFO - 参数设置 ...
+2024-05-10 22:10:11,741 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:10:11,772 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:10:47,400 - Model - INFO - 参数设置 ...
+2024-05-10 22:10:47,400 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:10:47,416 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:11:09,109 - Model - INFO - 参数设置 ...
+2024-05-10 22:11:09,109 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:11:09,125 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:12:53,304 - Model - INFO - 参数设置 ...
+2024-05-10 22:12:53,304 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:12:53,319 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:15:25,907 - Model - INFO - 参数设置 ...
+2024-05-10 22:15:25,907 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:15:25,923 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:15:31,183 - Model - INFO - 参数设置 ...
+2024-05-10 22:15:31,183 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:15:31,202 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:17:02,329 - Model - INFO - 参数设置 ...
+2024-05-10 22:17:02,329 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:17:02,344 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:18:38,854 - Model - INFO - 参数设置 ...
+2024-05-10 22:18:38,854 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:18:38,871 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:19:29,780 - Model - INFO - 参数设置 ...
+2024-05-10 22:19:29,780 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:19:29,796 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:20:07,597 - Model - INFO - 参数设置 ...
+2024-05-10 22:20:07,597 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:20:07,629 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:20:50,108 - Model - INFO - 参数设置 ...
+2024-05-10 22:20:50,108 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:20:50,140 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:21:38,627 - Model - INFO - 参数设置 ...
+2024-05-10 22:21:38,643 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:21:38,658 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:22:48,123 - Model - INFO - 参数设置 ...
+2024-05-10 22:22:48,123 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:22:48,139 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:25:18,105 - Model - INFO - 参数设置 ...
+2024-05-10 22:25:18,105 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:25:18,120 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:28:55,399 - Model - INFO - 参数设置 ...
+2024-05-10 22:28:55,399 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:28:55,415 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:29:10,703 - Model - INFO - 参数设置 ...
+2024-05-10 22:29:10,703 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:29:10,727 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:29:25,185 - Model - INFO - 参数设置 ...
+2024-05-10 22:29:25,185 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:29:25,200 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:42:40,140 - Model - INFO - 参数设置 ...
+2024-05-10 22:42:40,140 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2816, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:42:40,156 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:48:42,455 - Model - INFO - 参数设置 ...
+2024-05-10 22:48:42,455 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:48:42,480 - Model - INFO - 测试数据的数量为：2874
+2024-05-10 22:49:23,018 - Model - INFO - 参数设置 ...
+2024-05-10 22:49:23,018 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-10 22:49:23,143 - Model - INFO - 测试数据的数量为：1
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Chair          的mIoU为 0.954821
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-10 22:49:25,365 - Model - INFO - 准确率为：0.97119
+2024-05-10 22:49:25,365 - Model - INFO - 类别平均准确率为：nan
+2024-05-10 22:49:25,365 - Model - INFO - 类别平均mIoU为：nan
+2024-05-10 22:49:25,365 - Model - INFO - 实例平均mIoU为：0.95482
+2024-05-27 22:16:15,924 - Model - INFO - 参数设置 ...
+2024-05-27 22:16:15,925 - Model - INFO - Namespace(batch_size=72, gpu='0', num_point=2048, log_dir='pointnet2_part_seg_msg', normal=True, num_votes=3)
+2024-05-27 22:16:16,109 - Model - INFO - 测试数据的数量为：1
+2024-05-27 22:16:18,288 - Model - INFO - 评估 Airplane       的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Bag            的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Cap            的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Car            的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Chair          的mIoU为 0.973792
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Earphone       的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Guitar         的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Knife          的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Lamp           的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Laptop         的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Motorbike      的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Mug            的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Pistol         的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Rocket         的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Skateboard     的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 评估 Table          的mIoU为 nan
+2024-05-27 22:16:18,289 - Model - INFO - 准确率为：0.98242
+2024-05-27 22:16:18,290 - Model - INFO - 类别平均准确率为：nan
+2024-05-27 22:16:18,290 - Model - INFO - 类别平均mIoU为：nan
+2024-05-27 22:16:18,290 - Model - INFO - 实例平均mIoU为：0.97379
